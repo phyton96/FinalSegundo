@@ -134,7 +134,7 @@ namespace linq.Torneo{
                     string segundoEquipo = Console.ReadLine();
                     string busqueda2 = archivos.First(s => s == primerEquipo).ToString();
                     try{
-                        if(busqueda1 == busqueda2){
+                        if(primerEquipo == segundoEquipo){
                             Exception ex = new Exception("No puede jugar contra el mismo");
                             throw ex;
                         }
@@ -150,7 +150,7 @@ namespace linq.Torneo{
                         Console.WriteLine(ex.Message);
                     }
                     finally{
-                        menu3();
+                        menu1();
                     }
                 }
             }
