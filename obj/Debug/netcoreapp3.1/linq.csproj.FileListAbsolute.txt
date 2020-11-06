@@ -1,0 +1,60 @@
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.exe
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.deps.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.dll
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.pdb
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.AssemblyInfo.cs
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.dll
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.pdb
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csproj.CopyComplete
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.exe
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.deps.json
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.dll
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\linq.pdb
+E:\Clases 2020-2\POO\Parcial2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.csprojAssemblyReference.cache
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.AssemblyInfoInputs.cache
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.AssemblyInfo.cs
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.csproj.CopyComplete
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.dll
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.pdb
+E:\Clases 2020-2\POO\Parcial2\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csprojAssemblyReference.cache
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.AssemblyInfoInputs.cache
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.AssemblyInfo.cs
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.dll
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.pdb
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.exe
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.deps.json
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.dll
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\linq.pdb
+C:\Users\juans\Downloads\Parcial2-master\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csproj.CopyComplete
+C:\Users\juans\Downloads\Parcial2-master\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.exe
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.deps.json
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.dll
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\linq.pdb
+C:\Users\juans\Documents\Calculadora\Parcial2-master\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csprojAssemblyReference.cache
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.AssemblyInfoInputs.cache
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.AssemblyInfo.cs
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.csproj.CopyComplete
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.dll
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.pdb
+C:\Users\juans\Documents\Calculadora\Parcial2-master\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache

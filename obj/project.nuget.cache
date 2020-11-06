@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "slz2POHOpg/VBN6DzhrECIUjPgQYmnCfyM1izDG5Xg89x9E9eS6p5ziM+mA6qPpJlJJ6DLusbD+X9GpJvkhF4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\linq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juans\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
