@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Excepciones.CustomExceptions;
+using System.IO;
+using Parcial.Torneo;
 namespace linq.Torneo
 {
     public class Partido
@@ -9,6 +11,7 @@ namespace linq.Torneo
         #region Properties  
         public Equipo EquipoLocal { get; set; }
         public Equipo EquipoVisitante { get; set; }
+        public List<Observer> Observadores = new List<Observer>();
 
         #endregion Properties
 
@@ -20,6 +23,26 @@ namespace linq.Torneo
         }
         #endregion Initialize
         #region Methods
+
+        public void RegisterObserver(Observer observador){
+            Observadores.Add(observador);
+        }
+        public void UnregisterObserver(Observer observador){
+                for(int i = 0; i < Observadores.Count(); ++i){
+                    if(observador == Observadores[i]){
+                        Observadores.Remove(observador);
+                    }
+                    else{
+                        Console.WriteLine("No existe ese observador en la lista");
+                    }
+                }
+        }
+        public void NotifyObservers(){
+            foreach (var Observer in Observadores)
+            {
+                Observer.update();
+            }
+        }
         
         private void CalcularExpulsiones()
         {

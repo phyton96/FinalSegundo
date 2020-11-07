@@ -47,52 +47,37 @@ namespace linq.Torneo{
             Seleccion nuevaSeleccion = new Seleccion();
             Console.Write("Digite el nombre de la seleccion: ");
             string nombresel = Console.ReadLine();
-            try{
-                for(int i = 0; i < archivos.Count; ++i){
-                    if(nombresel == archivos[i]){
-                        Exception ex = new Exception("Ya existe");
-                        throw ex;
-                    }
-                    else{
-                        nuevaSeleccion.Nombre = nombresel;
-                        nuevaSeleccion.PuntosTotales = 0;
-                        nuevaSeleccion.GolesTotales = 0;
-                        nuevaSeleccion.AsistenciasTotales = 0;
-                        for(int j = 0; i < 11; ++j){
-                            Console.Write("Nombre del jugador: ");
-                            string nombrej = Console.ReadLine();
-                            int edad = random.Next(20, 40);
-                            int pos = random.Next(1, 11);
-                            double ataque = random.Next(1, 100);
-                            double defensa = random.Next(1, 100);
-                            int goles = random.Next(0, 20);
-                            int asistencias = random.Next(0, 20);
-                            Jugador jugadores = new Jugador(nombrej, edad, pos, ataque, defensa, goles, asistencias); 
-                            jugadoresL.Add(jugadores);
-                        }
-                        nuevaSeleccion.Jugadores = jugadoresL;
-                        var seleccionSerializada = JsonConvert.SerializeObject(nuevaSeleccion);
-                        Console.Write("Digite el nombre del archivo: ");
-                        string nombreArchivo = Console.ReadLine();
-                        archivos.Add(nombreArchivo);
-                        string json1 = ".json";
-                        string final = nombreArchivo+json1;
-                        Console.WriteLine(final);
-                        File.WriteAllText(final, seleccionSerializada);
-                        Console.Write("\n");
-                        Console.Write("Guardando en la lista");
-                        var nombresEquipos1 = JsonConvert.SerializeObject(archivos);
-                        File.WriteAllText("./nombresEquipos.json", nombresEquipos1);
-                        Console.Write("Creado y guardado satisfactoriamente\n");
-                    }
-                }
+            nuevaSeleccion.Nombre = nombresel;
+            nuevaSeleccion.PuntosTotales = 0;
+            nuevaSeleccion.GolesTotales = 0;
+            nuevaSeleccion.AsistenciasTotales = 0;
+            for(int j = 0; j < 11; ++j){
+                    Console.Write("Nombre del jugador: ");
+                    string nombrej = Console.ReadLine();
+                    int edad = random.Next(20, 40);
+                    int pos = random.Next(1, 11);
+                    double ataque = random.Next(1, 100);
+                    double defensa = random.Next(1, 100);
+                    int goles = random.Next(0, 20);
+                    int asistencias = random.Next(0, 20);
+                    Jugador jugadores = new Jugador(nombrej, edad, pos, ataque, defensa, goles, asistencias); 
+                    jugadoresL.Add(jugadores);
             }
-            catch(Exception ex){
-                Console.WriteLine(ex.Message);
-            }
-            finally{
-                menu1();
-            }
+            nuevaSeleccion.Jugadores = jugadoresL;
+            var seleccionSerializada = JsonConvert.SerializeObject(nuevaSeleccion);
+            Console.Write("Digite el nombre del archivo: ");
+            string nombreArchivo = Console.ReadLine();
+            archivos.Add(nombreArchivo);
+            string json1 = ".json";
+            string final = nombreArchivo+json1;
+            Console.WriteLine(final);
+            File.WriteAllText(final, seleccionSerializada);
+            Console.Write("\n");
+            Console.Write("Guardando en la lista");
+            var nombresEquipos1 = JsonConvert.SerializeObject(archivos);
+            File.WriteAllText("./nombresEquipos.json", nombresEquipos1);
+            Console.Write("Creado y guardado satisfactoriamente\n");
+            menu1();   
         }
 
         public void menu3(){

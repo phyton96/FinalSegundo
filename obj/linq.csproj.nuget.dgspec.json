@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\linq.csproj": {}
+    "C:\\Users\\juans\\Documents\\Calculadora\\Parcial\\linq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\linq.csproj": {
+    "C:\\Users\\juans\\Documents\\Calculadora\\Parcial\\linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\linq.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial\\linq.csproj",
         "projectName": "linq",
-        "projectPath": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\linq.csproj",
+        "projectPath": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial\\linq.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial2-master\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Documents\\Calculadora\\Parcial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juans\\AppData\\Roaming\\NuGet\\NuGet.Config"
