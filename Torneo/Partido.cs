@@ -124,6 +124,36 @@ namespace linq.Torneo
                 Console.WriteLine("Resultado del partido\n");
                 CalcularResultado();
                 resultado = EquipoLocal.Goles.ToString() + " - " + EquipoVisitante.Goles.ToString();
+                if(EquipoLocal.Goles > EquipoVisitante.Goles){
+                    ObserverPuntos oPuntosLocal = new ObserverPuntos();
+                    RegisterObserver(oPuntosLocal);
+                    int ganador = 3;
+                    string nombreEquipoLocal = EquipoLocal.Seleccion.Nombre;
+                    oPuntosLocal.update(nombreEquipoLocal, ganador);
+                    UnregisterObserver(oPuntosLocal);
+                }
+                if(EquipoLocal.Goles < EquipoVisitante.Goles){
+                    ObserverPuntos oPuntosVisitante = new ObserverPuntos();
+                    RegisterObserver(oPuntosVisitante);
+                    int ganador = 3;
+                    string nombreEquipoVisitante = EquipoVisitante.Seleccion.Nombre;
+                    oPuntosVisitante.update(nombreEquipoVisitante, ganador);
+                    UnregisterObserver(oPuntosVisitante);
+                }
+                if(EquipoLocal.Goles == EquipoVisitante.Goles){
+                    ObserverPuntos oPuntosLocal = new ObserverPuntos();
+                    RegisterObserver(oPuntosLocal);
+                    int ganador = 1;
+                    string nombreEquipoLocal = EquipoLocal.Seleccion.Nombre;
+                    oPuntosLocal.update(nombreEquipoLocal, ganador);
+                    UnregisterObserver(oPuntosLocal);
+                    ObserverPuntos oPuntosVisitante = new ObserverPuntos();
+                    RegisterObserver(oPuntosVisitante);
+                    int ganador1 = 1;
+                    string nombreEquipoVisitante = EquipoVisitante.Seleccion.Nombre;
+                    oPuntosVisitante.update(nombreEquipoVisitante, ganador1);
+                    UnregisterObserver(oPuntosVisitante);
+                }    
             }
             catch(LoseForWException ex)
             {
@@ -134,11 +164,23 @@ namespace linq.Torneo
                 {
                     EquipoVisitante.Goles += 3;
                     resultado = "0 - 3";
+                    ObserverPuntos oPuntosVisitante = new ObserverPuntos();
+                    RegisterObserver(oPuntosVisitante);
+                    int ganador = 3;
+                    string nombreEquipoVisitante = EquipoVisitante.Seleccion.Nombre;
+                    oPuntosVisitante.update(nombreEquipoVisitante, ganador);
+                    UnregisterObserver(oPuntosVisitante);
                 }
                 else
                 {
                     EquipoLocal.Goles += 3;
                     resultado = "3 - 0";
+                    ObserverPuntos oPuntosLocal = new ObserverPuntos();
+                    RegisterObserver(oPuntosLocal);
+                    int ganador = 3;
+                    string nombreEquipoLocal = EquipoLocal.Seleccion.Nombre;
+                    oPuntosLocal.update(nombreEquipoLocal, ganador);
+                    UnregisterObserver(oPuntosLocal);
                 }
             }
             return resultado;
