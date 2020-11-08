@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Excepciones.CustomExceptions;
 using Parcial.Torneo;
-namespace linq.torneo
+namespace Parcial.Torneo
 {
     public class ObserverPuntos:Observer
     {

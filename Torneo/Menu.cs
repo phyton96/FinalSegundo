@@ -117,7 +117,7 @@ namespace linq.Torneo{
                     total = busqueda1 + completar;
                     Console.Write("Equipo 2: ");
                     string segundoEquipo = Console.ReadLine();
-                    string busqueda2 = archivos.First(s => s == primerEquipo).ToString();
+                    string busqueda2 = archivos.First(s => s == segundoEquipo).ToString();
                     try{
                         if(primerEquipo == segundoEquipo){
                             Exception ex = new Exception("No puede jugar contra el mismo");

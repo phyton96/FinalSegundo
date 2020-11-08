@@ -96,9 +96,21 @@ namespace linq.Torneo
 
         private void CalcularResultado()
         {
+            ObserverGoles oPuntosLocal = new ObserverGoles();
+            ObserverGoles oPuntosVisitante = new ObserverGoles();
+            RegisterObserver(oPuntosLocal);
+            RegisterObserver(oPuntosVisitante);
+            string nombreEquipoLocal = EquipoLocal.Seleccion.Nombre;
+            string nombreEquipoVisitante = EquipoVisitante.Seleccion.Nombre;
             Random random = new Random();
-            EquipoLocal.Goles = random.Next(0,6);
-            EquipoVisitante.Goles = random.Next(0,6);
+            int i = random.Next(0,6);
+            EquipoLocal.Goles = i;
+            int j = random.Next(0,6);
+            EquipoVisitante.Goles = j;
+            oPuntosLocal.update(nombreEquipoLocal, i);
+            oPuntosVisitante.update(nombreEquipoVisitante, j);
+            UnregisterObserver(oPuntosLocal);
+            UnregisterObserver(oPuntosVisitante);
         }
 
         public string Resultado()
